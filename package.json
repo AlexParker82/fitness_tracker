@@ -1,0 +1,31 @@
+{
+  "name": "fitness_tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeders/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexParker82/fitness_tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12",
+    "morgan": "^1.10.0"
+  },
+  "bugs": {
+    "url": "https://github.com/AlexParker82/fitness_tracker/issues"
+  },
+  "homepage": "https://github.com/AlexParker82/fitness_tracker#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
