@@ -10,11 +10,12 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb+srv://alex_parker82:saltydog82@cluster0.pvutq.mongodb.net/imageperformance?retryWrites=true&w=majority", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb+srv://alex_parker82:saltydog82@cluster0.pvutq.mongodb.net/workout?retryWrites=true&w=majority", {
     useNewUrlParser: true,
 });
 
-// app.use(require("./routes/api.js"));
+app.use(require("./routes/api"));
+app.use(require("./routes/htmlRoutes"));
 
 app.listen(PORT, () => {
     console.log(`App running on port ${PORT}!`);
