@@ -1,5 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
+require('dotenv').config();
 
 const PORT = process.env.PORT || 3001;
 
@@ -10,7 +11,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb+srv://alex_parker82:saltydog82@cluster0.pvutq.mongodb.net/workout?retryWrites=true&w=majority", {
+mongoose.connect(process.env.MONGODB_URI || process.env.DB_INFO, {
     useNewUrlParser: true,
 });
 

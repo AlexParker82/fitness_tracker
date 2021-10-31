@@ -1,7 +1,8 @@
 const mongoose = require('mongoose');
 const db = require('../models');
+require('dotenv').config();
 
-mongoose.connect('mongodb+srv://alex_parker82:saltydog82@cluster0.pvutq.mongodb.net/workout?retryWrites=true&w=majority', {
+mongoose.connect(process.env.DB_INFO, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
