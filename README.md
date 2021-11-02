@@ -1,11 +1,14 @@
 # **fitness_tracker**
 
+![Screenshot (27)](https://user-images.githubusercontent.com/82096138/139770567-b173df74-d175-4d40-9f88-25691be57f6a.png)
+
+![Screenshot (28)](https://user-images.githubusercontent.com/82096138/139770570-6af5b55b-b1ac-4329-8c57-3ffca2986204.png)
 
 
 ![badge](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Table of Contents
-- [**fitness_tracker**](#fitness_tracker)
+  - [fitness_tracker](#fitness_tracker)
   - [Table of Contents](#table-of-contents)
   - [Description](#description)
   - [Installation](#installation)
@@ -13,7 +16,7 @@
   - [Usage](#usage)
   - [License](#license)
   - [Contributors](#contributors)
-    - [How you can contribute](#how-you-can-contribute)
+  - [How you can contribute](#how-you-can-contribute)
   - [Tests](#tests)
   - [Questions](#questions)
 
