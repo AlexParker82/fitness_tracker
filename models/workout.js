@@ -12,18 +12,9 @@ const WorkoutSchema = new Schema({
             reps: { type: Number },
             sets: { type: Number },
             distance: { type: Number },
-            
-
         }
     ],
-    totalDuration: { type: String }
 });
-
-WorkoutSchema.methods.setTotalDuration = function() {
-    this.totalDuration = this.exercises.duration;
-
-    return this.totalDuration;
-}
 
 const Workout = mongoose.model("Workout", WorkoutSchema);
 
